@@ -183,12 +183,12 @@ fullstack-roadmap
 ├── Data
 │   └── projects.js
 │
-├── src
-│   ├── styles
-│   │   └── styles.css
-│   │
-│   ├── index.html
-│   └── popup.html
+├── styles
+│   └── styles.css
+│   
+│   
+│── index.html
+│── popup.html
 │
 └── README.md
 ```
