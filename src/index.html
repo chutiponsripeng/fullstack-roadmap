@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Fullstack Developer Roadmap</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+</head>
+
+<body>
+    <div id="popup-container"></div>
+
+    <h1>Fullstack Developer Roadmap</h1>
+
+    <div class="container">
+
+        <div class="week">
+            <h2>Week 1 — Github & JavaScript Fundamentals</h2>
+            <div class="week-resources">
+                <a class="resource-link" href="https://youtu.be/1hosboTh53I?si=VGdcbe5PI_f4lp9Z" target="_blank">
+                    Github From Beginner To Expert in 25 Minutes
+                </a>
+                <a class="resource-link"
+                    href="https://youtube.com/playlist?list=PLZPZq0r_RZOO1zkgO4bIdfuLpizCeHYKv&si=J-nv9xGBSPpALRWJ"
+                    target="_blank">
+                    JavaScript Full Course
+                </a>
+            </div>
+            <div class="day" onclick="openProject('calculator')">
+                <input type="checkbox" class="check">
+                <div>
+                    <div class="topic">Day 1 — Variables & Data Types</div>
+                    <div>เรียน: let, const, string, number</div>
+                    <div class="project">
+                        Mini Project: Console Calculator
+                    </div>
+                    <div class="video">
+                        Video: <a href="https://youtu.be/nbX0MIV7-Ek?si=D5CwumiIT4sHu5-p" target="_blank">
+                            JavaScript VARIABLES are easy!</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="day" onclick="openProject('randomName')">
+                <input type="checkbox" class="check">
+                <div>
+                    <div class="topic">Day 2 — Functions</div>
+                    <div>เรียน: function, arrow function</div>
+                    <div class="project">Mini Project: Random Name Generator
+                    </div>
+                    <div class="video">
+                        Video: <a href="https://youtu.be/fRRRkognpOs?si=97vNZyqwLkMEMNng" target="_blank">Functions
+                        </a> <br>
+                        Video: <a href="https://youtu.be/fRRRkognpOs?si=97vNZyqwLkMEMNng" target="_blank">Arrow
+                            Functions</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="day" onclick="openProject('shoppingList')">
+                <input type="checkbox" class="check">
+                <div>
+                    <div class="topic">Day 3 — Arrays</div>
+                    <div>เรียน: push, pop, loop</div>
+                    <div class="project">Mini Project: Shopping List</div>
+                    <div class="video">
+                        Video: <a href="https://youtu.be/R8rmfD9Y5-c" target="_blank">Web Dev Simplified
+                            Arrays</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="day" onclick="openProject('scoreFilter')">
+                <input type="checkbox" class="check">
+                <div>
+                    <div class="topic">Day 4 — Array Methods</div>
+                    <div>เรียน: map(), filter(), reduce()</div>
+                    <div class="project">Mini Project: Student Score Filter</div>
+                    <div class="video">
+                        Video: <a href="https://youtu.be/PojpwEbOQJg?si=rMOSL-A8kECChWT-" target="_blank">Coding2GO
+                            Array Methods</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="day" onclick="openProject('userProfile')">
+                <input type="checkbox" class="check">
+                <div>
+                    <div class="topic">Day 5 — Objects</div>
+                    <div>เรียน: object structure</div>
+                    <div class="project">Mini Project: User Profile Object</div>
+                    <div class="video">
+                        Video: <a href="https://youtu.be/X0ipw1k7ygU" target="_blank">Net Ninja Objects</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="day" onclick="openProject('cloneUserData')">
+                <input type="checkbox" class="check">
+                <div>
+                    <div class="topic">Day 6 — Destructuring & Spread</div>
+                    <div>เรียน: {...obj}</div>
+                    <div class="project">Mini Project: Clone User Data</div>
+                    <div class="video">
+                        Video: <a href="https://youtu.be/RuDdltsfaVc?si=LMauyBVOuQzUSx-Q" target="_blank">SPREAD
+                            OPERATOR in 4 minutes</a>
+                        <br>
+                        Video: <a href="https://youtu.be/UHZcJyVXtLo?si=erRuwPo1wyXf-3rK" target="_blank">DESTRUCTURING
+                            in 8 minutes</a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="day" onclick="openProject('randomUserAPI')">
+                <input type="checkbox" class="check">
+                <div>
+                    <div class="topic">Day 7 — Async / Fetch API</div>
+                    <div>เรียน: async await</div>
+                    <div class="project">Mini Project: Fetch Random User API</div>
+                    <div class="video">
+                        Video: <a href="https://youtu.be/cuEtnrL9-H0" target="_blank">Net Ninja Async JS</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="week">
+            <h2>Week 2 — React</h2>
+            <div class="week-resources">
+                <a class="resource-link" href="https://www.youtube.com/playlist?list=PLZPZq0r_RZOMQArzyI32mVndGBZ3D99XQ"
+                    target="_blank">
+                    Bro Code React Full Course
+                </a>
+            </div>
+            <div class="day" onclick="openProject('helloReact')">
+                <input type="checkbox" class="check">
+                <div>
+                    <div class="topic">Day 8 — React Setup</div>
+                    <div>เรียน: create project</div>
+                    <div class="project">Mini Project: Hello React Page</div>
+                </div>
+            </div>
+
+            <div class="day" onclick="openProject('navbar')">
+                <input type="checkbox" class="check">
+                <div>
+                    <div class="topic">Day 9 — Components</div>
+                    <div>เรียน: component structure</div>
+                    <div class="project">Mini Project: Navbar Component</div>
+                </div>
+            </div>
+
+            <div class="day" onclick="openProject('userProfileCard')">
+                <input type="checkbox" class="check">
+                <div>
+                    <div class="topic">Day 10 — Props</div>
+                    <div>เรียน: send data between components</div>
+                    <div class="project">Mini Project: Profile Card</div>
+                </div>
+            </div>
+
+            <div class="day" onclick="openProject('counterApp')"><input type="checkbox" class="check">
+                <div>
+                    <div class="topic">Day 11 — useState</div>
+                    <div>เรียน: state management</div>
+                    <div class="project">Mini Project: Counter App</div>
+                </div>
+            </div>
+
+            <div class="day" onclick="openProject('formInputPreview')">
+                <input type="checkbox" class="check">
+                <div>
+                    <div class="topic">Day 12 — Events</div>
+                    <div>เรียน: onClick / form input</div>
+                    <div class="project">Mini Project: Form Input Preview</div>
+                </div>
+            </div>
+
+            <div class="day" onclick="openProject('todoList')">
+                <input type="checkbox" class="check">
+                <div>
+                    <div class="topic">Day 13 — List Rendering</div>
+                    <div>เรียน: map()</div>
+                    <div class="project">Mini Project: Todo List</div>
+                </div>
+            </div>
+
+            <div class="day" onclick="openProject('postList')"><input type="checkbox" class="check">
+                <div>
+                    <div class="topic">Day 14 — Fetch API in React</div>
+                    <div>เรียน: load data</div>
+                    <div class="project">Mini Project: Post List from API</div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="week">
+            <h2>Week 3 — Backend (Node + Express)</h2>
+            <div class="week-resources">
+                <a class="resource-link" href="https://youtu.be/TlB_eWDSMt4?si=oqFF3lcReVFhYgra" target="_blank">
+                    Node.js Tutorial for Beginners: Learn Node in 1 Hour
+                </a>
+            </div>
+            <div class="day" onclick="openProject('simpleHttpServer')">
+                <input type="checkbox" class="check">
+                <div>
+                    <div class="topic">Day 15 — Node.js Basics</div>
+                    <div class="project">Mini Project: Simple HTTP Server</div>
+                </div>
+            </div>
+
+            <div class="day" onclick="openProject('helloApi')">
+                <input type="checkbox" class="check">
+                <div>
+                    <div class="topic">Day 16 — Express</div>
+                    <div class="project">Mini Project: Hello API</div>
+                </div>
+            </div>
+
+            <div class="day" onclick="openProject('notesApi')"><input type="checkbox" class="check">
+                <div>
+                    <div class="topic">Day 17 — REST API</div>
+                    <div class="project">Mini Project: Notes API</div>
+                </div>
+            </div>
+
+            <div class="day" onclick="openProject('createPostApi')">
+                <input type="checkbox" class="check">
+                <div>
+                    <div class="topic">Day 18 — Request / Response</div>
+                    <div class="project">Mini Project: Create Post API</div>
+                </div>
+            </div>
+
+            <div class="day" onclick="openProject('saveUsers')"><input type="checkbox" class="check">
+                <div>
+                    <div class="topic">Day 19 — Database</div>
+                    <div class="project">Mini Project: Save Users
+                    </div>
+                </div>
+            </div>
+
+            <div class="day" onclick="openProject('loginApi')">
+                <input type="checkbox" class="check">
+                <div>
+                    <div class="topic">Day 20 — Authentication</div>
+                    <div class="project">Mini Project: Login API</div>
+                </div>
+            </div>
+
+            <div class="day" onclick="openProject('fullstackBlog')"><input type="checkbox" class="check">
+                <div>
+                    <div class="topic">Day 21 — Fullstack Connection</div>
+                    <div class="project">Mini Project: Fullstack Blog</div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="footer">
+
+        <div class="footer-box">
+            <img src="https://avatars.githubusercontent.com/u/109737863?v=4" alt="Profile Picture">
+            <div class="footer-name">Chutipon Sripeng</div>
+        </div>
+
+        <div class="footer-email">
+            chutiponsripeng@gmail.com
+        </div>
+
+        <h4>
+            Study 3-4 hours per day • Build something every day • Push to GitHub
+            <br><br>
+            ข้อมูลอ้างอิงหรือเว็บไซต์การเรียนรู้ต่างๆ อาจไม่ตรงกับที่แนะนำในคอร์ส
+            แต่จะเป็นแค่ตัวอย่างเพื่อให้เห็นภาพเท่านั้น
+            สามารถเลือกใช้แหล่งเรียนรู้ที่ชอบได้ตามสะดวกเพื่อความเข้าใจที่ดีที่สุดของแต่ละคน
+        </h4>
+
+    </div>
+
+    <script src="../Data/projects.js"></script>
+    <script>
+        // โหลด popup.html เข้าเว็บ
+        window.addEventListener("DOMContentLoaded", () => {
+            fetch("popup.html")
+                .then(res => res.text())
+                .then(data => {
+                    document.getElementById("popup-container").innerHTML = data;
+                })
+                .catch(err => console.error("Popup load error", err));
+        });
+        // เปิด popup
+        function openProject(name) {
+
+            const project = projects[name];
+
+            document.body.classList.add("popup-open");
+
+            document.getElementById("projectTitle").innerText = project.title;
+            document.getElementById("projectDesc").innerText = project.desc;
+            document.getElementById("projectExample").innerText = project.example;
+            document.getElementById("projectSolution").innerText = project.solution;
+
+            document.getElementById("solutionBox").style.display = "none";
+            document.getElementById("projectPopup").style.display = "flex";
+        }
+        function closeProject() {
+            document.body.classList.remove("popup-open");
+            document.getElementById("projectPopup").style.display = "none";
+        }
+        document.addEventListener("DOMContentLoaded", () => {
+
+            const checks = document.querySelectorAll(".check");
+
+            checks.forEach((box, index) => {
+
+                const saved = localStorage.getItem("day_" + index);
+
+                if (saved === "true") {
+                    box.checked = true;
+                    box.parentElement.classList.add("done");
+                }
+
+                box.addEventListener("change", () => {
+
+                    localStorage.setItem("day_" + index, box.checked);
+
+                    if (box.checked) {
+                        box.parentElement.classList.add("done");
+                    } else {
+                        box.parentElement.classList.remove("done");
+                    }
+
+                });
+
+            });
+
+        });
+        document.addEventListener("click", (e) => {
+            const popup = document.getElementById("projectPopup");
+            if (e.target.id === "projectPopup") {
+                popup.style.display = "none";
+            }
+        });
+        function toggleSolution() {
+
+            const box = document.getElementById("solutionBox");
+
+            if (box.style.display === "none") {
+                box.style.display = "block";
+            } else {
+                box.style.display = "none";
+            }
+
+        }
+        document.querySelectorAll(".check").forEach(box => {
+            box.addEventListener("click", (e) => {
+                e.stopPropagation();
+            });
+        });
+
+        document.querySelectorAll(".video a").forEach(link => {
+            link.addEventListener("click", (e) => {
+                e.stopPropagation();
+            });
+        });
+    </script>
+
+
+</body>
+
+</html>
