@@ -169,21 +169,37 @@ Mini Projects
 
 ---
 
-## 📂 โครงสร้างไฟล์ของโปรเจค
+# 📂 โครงสร้างไฟล์ของโปรเจค
 
 ```
 fullstack-roadmap
 │
-├── src
-│   └── index.html
-│
 ├── assets
-│   └── preview-main.png
+│   ├── preview-main.jpg
+│   ├── roadmap-list.png
+│   ├── project-popup.png
+│   └── solution-popup.png
 │
 ├── Data
+│   └── projects.js
+│
+├── src
+│   ├── styles
+│   │   └── styles.css
+│   │
+│   ├── index.html
+│   └── popup.html
 │
 └── README.md
 ```
+
+คำอธิบาย
+
+- **assets** – เก็บรูปภาพที่ใช้ในเว็บไซต์และ README
+- **Data** – เก็บข้อมูลของ Mini Projects และ Solution
+- **src** – เก็บ source code ของเว็บไซต์
+- **styles** – เก็บไฟล์ CSS สำหรับ styling
+- **README.md** – เอกสารอธิบายโปรเจค
 
 ---
 
