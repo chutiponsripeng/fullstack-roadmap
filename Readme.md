@@ -1,170 +1,127 @@
 # Fullstack Developer Study Roadmap
 
----
-ข้อมูลอ้างอิงหรือเว็บไซต์การเรียนรู้ต่างๆ อาจไม่ตรงกับที่แนะนำในคอร์ส
-แต่จะเป็นแค่ตัวอย่างเพื่อให้เห็นภาพเท่านั้น
-สามารถเลือกใช้แหล่งเรียนรู้ที่ชอบได้ตามสะดวกเพื่อความเข้าใจที่ดีที่สุดของแต่ละคน
----
+เว็บไซต์สำหรับรวบรวม **Roadmap การเรียนรู้ Fullstack Web Development**
+เพื่อช่วยจัดลำดับการเรียนรู้ และรวมแหล่งความรู้ต่าง ๆ ไว้ในที่เดียว
 
-Roadmap การเรียนรู้สำหรับผู้ที่มีพื้นฐาน **HTML, CSS และ React ในระดับหนึ่ง**
-และต้องการพัฒนาไปสู่การเป็น **Fullstack Developer ที่มีความแข็งแรงด้าน Backend**
-
-เป้าหมายคือเปลี่ยนจาก
-Frontend Developer → **Fullstack Developer ที่เข้าใจระบบทั้งเว็บ**
+โปรเจคนี้ถูกสร้างขึ้นเพื่อแก้ปัญหาการเรียนเขียนโปรแกรมจากวิดีโอออนไลน์
+ซึ่งมักมีเนื้อหากระจัดกระจาย และไม่มีโครงสร้างการเรียนที่ชัดเจน
 
 ---
 
-# เหมาะกับใคร
+## 📷 Preview
 
-Roadmap นี้เหมาะกับคนที่
+### หน้าเว็บไซต์หลัก
 
-* เข้าใจพื้นฐาน **HTML / CSS**
-* เคยสร้าง **React component**
-* รู้วิธี run React project
-* ต้องการไปสาย **Fullstack (เน้น Backend)**
+![Main](./assets/preview-main.jpg)
 
-ไม่จำเป็นต้องเก่งมาก แต่ควรมีพื้นฐานดังนี้
+### Roadmap การเรียน
 
-* JavaScript เบื้องต้น
-* React component
-* การจัดโครงสร้างไฟล์โปรเจค
+![Roadmap](./assets/roadmap-list.png)
 
----
+### ตัวอย่าง Mini Project
 
-# แนวคิดของการเรียนคอร์สนี้
+![Project](./assets/project-popup.png)
 
-คอร์สนี้มีแนวคิดหลัก 3 อย่าง
+### ตัวอย่าง Solution
 
-## 1. สร้างโปรเจคทุกวัน
-
-ทุกหัวข้อจะมี **Mini Project**
-
-เพราะการดู tutorial อย่างเดียว
-ไม่ทำให้เข้าใจการเขียนโปรแกรมจริง
-
-คุณจะต้อง **สร้างอะไรบางอย่างทุกวัน**
+![Solution](./assets/solution-popup.png)
 
 ---
 
-## 2. Backend
-Roadmap นี้จะทำให้คุณเข้าใจ
+## 🎯 จุดประสงค์ของโปรเจค
 
-* การทำงานของ API
-* การออกแบบระบบ
-* การจัดโครงสร้าง server
-* การเชื่อมต่อ database
-* การทำ authentication
+โปรเจคนี้ถูกสร้างขึ้นเพื่อแก้ปัญหาที่พบระหว่างการเรียนเขียนโปรแกรมด้วยตนเอง เช่น
 
----
+* วิดีโอสอนมีจำนวนมากและกระจัดกระจาย
+* หาวิดีโอที่เคยดูไม่เจอ
+* ไม่มีโครงสร้างการเรียนที่ชัดเจน
+* ไม่รู้ว่าควรเรียนอะไรก่อนหลัง
 
-## 3. ใช้ AI เป็นเครื่องมือ
+เว็บไซต์นี้จึงช่วย
 
-AI จะถูกใช้ในส่วนของ
-
-* การสร้าง layout จาก design
-* การแปลง Figma เป็น code
-* การ debug code
-
-แต่ **logic หลักของระบบต้องเขียนเอง**
-
-เพื่อให้เข้าใจการทำงานจริงของระบบ
+* รวมเนื้อหาการเรียนไว้ในที่เดียว
+* จัดลำดับการเรียนรู้
+* เพิ่มแบบฝึกหัดและ Mini Project
+* ใช้เป็น Roadmap สำหรับการเรียน Fullstack Development
 
 ---
 
-# Workflow ของ Frontend
+## 🚀 ฟีเจอร์ของเว็บไซต์
 
-การพัฒนา frontend ใน roadmap นี้จะใช้ workflow แบบนี้
-
-1. ออกแบบ UI ใน **Figma**
-2. ใช้ AI generate **HTML / CSS layout**
-3. แปลง layout เป็น **React Component**
-4. เชื่อม React กับ **Backend API**
-5. แสดงข้อมูลแบบ dynamic
-
-ตัวอย่าง workflow
-
-Figma Design
-↓
-AI Generate Layout
-↓
-Convert เป็น React Components
-↓
-Fetch API
-↓
-Render Data จาก Server
+* Roadmap สำหรับการเรียน Fullstack Development
+* รวมวิดีโอสอนในแต่ละหัวข้อ
+* มี Mini Project ให้ฝึกในแต่ละช่วง
+* จัดลำดับการเรียนจาก Frontend ไป Backend
+* UI เรียบง่ายเพื่อให้โฟกัสกับการเรียน
 
 ---
 
-# สิ่งที่จะได้เรียนรู้ในคอร์สนี้
+## 🛠 เทคโนโลยีที่ใช้
 
-Roadmap นี้ครอบคลุม **การพัฒนาเว็บแบบ Fullstack ตั้งแต่ต้นจนจบ**
+### Frontend
 
----
+* HTML
+* CSS
+* JavaScript
 
-# JavaScript Fundamentals
+### Tools
 
-คุณจะได้เรียนรู้
-
-* ตัวแปร (let, const)
-* data types
-* functions
-* arrays
-* objects
-* array methods (map, filter)
-* destructuring
-* async / await
-* Fetch API
-
-Mini project เช่น
-
-* console calculator
-* random generator
-* ดึงข้อมูลจาก API
+* Git
+* GitHub
+* Visual Studio Code
 
 ---
 
-# React Development
+## 📚 โครงสร้างการเรียนรู้ใน Roadmap
 
-เรียนรู้การสร้าง frontend app แบบจริง
+### 1️⃣ JavaScript Fundamentals
 
 หัวข้อที่เรียน
 
-* React project setup
-* component structure
-* props
-* state
-* event handling
-* list rendering
-* API integration
+* Variables
+* Functions
+* Arrays
+* Objects
+* Async / Await
+* Fetch API
 
-Mini projects เช่น
+Mini Projects
 
-* Navbar component
-* Profile Card
-* Todo List
-* หน้าแสดงข้อมูลจาก API
+* Console Calculator
+* Random Generator
+* API Data Fetch
 
 ---
 
-# Backend Development (ส่วนสำคัญที่สุด)
+### 2️⃣ React Development
 
-นี่คือหัวใจของ roadmap นี้
+หัวข้อที่เรียน
 
-คุณจะได้เรียน
+* Component
+* Props
+* State
+* Event Handling
+* List Rendering
+* API Integration
 
-## Node.js
+Mini Projects
 
-* การรัน JavaScript บน server
-* การสร้าง server
-* การรับ request
+* Navbar Component
+* Profile Card
+* Todo List
+* API Data Viewer
 
-## Express
+---
 
-* routing
-* middleware
+### 3️⃣ Backend Development
+
+เรียนรู้การสร้าง Backend ด้วย
+
+* Node.js
+* Express
 * REST API
 
-ตัวอย่าง API ที่จะสร้าง
+ตัวอย่างโปรเจค
 
 * Notes API
 * Post API
@@ -172,149 +129,83 @@ Mini projects เช่น
 
 ---
 
-# Database
-
-เรียนรู้การเก็บข้อมูลในระบบ
+### 4️⃣ Database
 
 หัวข้อที่เรียน
 
-* database fundamentals
-* CRUD operations
-* data modeling
-* การเชื่อม database กับ backend
+* CRUD Operations
+* Data Modeling
+* Database Integration
 
 ตัวอย่างโปรเจค
 
-* user database
-* ระบบประกาศข่าว
-* blog system
+* User Database
+* Blog System
+* Announcement System
 
 ---
 
-# Authentication System
-
-เรียนรู้การสร้างระบบ login
+### 5️⃣ Authentication System
 
 หัวข้อที่เรียน
 
-* login flow
-* authentication
-* protected routes
-* session / token
+* Login Flow
+* Authentication
+* Protected Routes
+* Session / Token
 
 ---
 
-# Fullstack Integration
+## 💡 สิ่งที่ได้เรียนรู้จากโปรเจคนี้
 
-การเชื่อม frontend กับ backend
+จากการสร้างโปรเจคนี้ ผู้พัฒนาได้เรียนรู้
 
-React จะเรียกใช้ API จาก server
-
-คุณจะเรียนรู้
-
-* การ fetch API จาก React
-* การจัดการ response
-* การ render ข้อมูลแบบ dynamic
-
-ตัวอย่างโปรเจค
-
-Fullstack Blog System
+* การออกแบบโครงสร้างโปรเจคเว็บไซต์
+* การจัดระเบียบเนื้อหาการเรียนรู้ให้เป็นระบบ
+* การสร้าง UI แบบ Interactive ด้วย JavaScript
+* การใช้ Git สำหรับ Version Control
+* การใช้ GitHub เพื่อจัดเก็บและเผยแพร่โปรเจค
+* การเขียน README เพื่ออธิบายโปรเจคให้ผู้อื่นเข้าใจ
 
 ---
 
-# Developer Tools
+## 📂 โครงสร้างไฟล์ของโปรเจค
 
-เครื่องมือสำคัญที่ developer ใช้จริง
-
-## Git & GitHub
-
-* version control
-* commit history
-* push code
-* project management
-
----
-
-## Project Structure
-
-เรียนรู้โครงสร้าง backend แบบ production
-
-ตัวอย่างโครงสร้าง
-
-server
-routes
-controllers
-models
-
-ซึ่งเป็นโครงสร้างที่ใช้จริงในระบบขนาดใหญ่
+```
+fullstack-roadmap
+│
+├── src
+│   └── index.html
+│
+├── assets
+│   └── preview-main.png
+│
+├── Data
+│
+└── README.md
+```
 
 ---
 
-# Deployment
+## 🔮 การพัฒนาในอนาคต
 
-การนำเว็บขึ้นใช้งานจริง
+สิ่งที่วางแผนจะพัฒนาเพิ่มเติม
 
-หัวข้อที่เรียน
-
-* deploy frontend
-* deploy backend
-* เชื่อมระบบ frontend กับ backend ใน production
-
----
-
-# Skills ที่คุณจะได้
-
-หลังจากเรียน roadmap นี้ คุณจะเข้าใจ
-
-* fullstack architecture
-* REST API design
-* backend logic
-* database integration
-* authentication system
-* frontend และ backend integration
-* project structure แบบ production
-
-คุณจะเปลี่ยนจาก
-
-คนที่เขียน UI ได้ → **คนที่สร้างระบบเว็บได้**
+* เพิ่มระบบติดตามความก้าวหน้าในการเรียน
+* Roadmap แบบ Interactive
+* เพิ่ม Mini Projects
+* เพิ่มตัวอย่าง Fullstack Project
 
 ---
 
-# เป้าหมายสุดท้าย
+## 🎯 เป้าหมายของ Roadmap นี้
 
-เมื่อเรียนจบ roadmap นี้
-คุณควรสามารถสร้างระบบเว็บแบบ fullstack ได้ เช่น
+Roadmap นี้ถูกออกแบบมาเพื่อช่วยให้ผู้เรียนสามารถพัฒนา
+**Fullstack Web Application ได้จริง**
 
-* blog system
-* announcement system
-* dashboard
-* school system
-* internal tools
+ตัวอย่างเช่น
 
----
-
-# เวลาเรียนที่แนะนำ
-
-ประมาณ
-
-3–4 ชั่วโมงต่อวัน
-
-roadmap นี้ถูกออกแบบให้เรียนแบบ **ค่อย ๆ สะสมความเข้าใจ**
-
-ไม่จำเป็นต้องรีบเรียนให้เร็ว
-
----
-
-# คำแนะนำ
-
-อย่ารีบ
-
-การเข้าใจ **โครงสร้างระบบ** สำคัญกว่าการเขียน code ได้เร็ว
-
-พยายาม
-
-* สร้างโปรเจคเล็ก ๆ ทุกวัน
-* push code ขึ้น GitHub
-* อ่าน code ของตัวเอง
-* และทำความเข้าใจทุกบรรทัด
-
+* Blog System
+* Dashboard System
+* School System
+* Internal Tools
